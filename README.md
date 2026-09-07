@@ -2,106 +2,207 @@
 
 <img src="Translation.png" width="200" alt="Azure AI Translator Logo">
 
-**Azure AI Translator** is a robust, cloud-based neural machine translation service providing fast, accurate text and document translations in 135+ languages. Easily integrate real-time or batch translation directly into your applications using simple REST APIs. Take translation further with advanced features like custom translation models and containerized deployments for full control.
+Azure AI Translator: Demonstrações e Notebooks Profissionais
+
+O Azure AI Translator é um serviço robusto de tradução automática neural baseado em nuvem, que oferece traduções rápidas e precisas de textos e documentos em mais de 135 idiomas.
+
+É possível integrar facilmente a tradução em tempo real ou em lote diretamente às suas aplicações utilizando APIs REST simples. O serviço também oferece recursos avançados, como modelos de tradução personalizados e implantação em contêineres, proporcionando maior controle.
 
 ---
 
-## 🚀 Key Features
+🚀 Principais recursos
 
-- **Fast, Accurate Translation:** Leverages state-of-the-art neural machine translation for superior quality.
-- **Text and Document Translation:** Translating both structured and unstructured data, synchronously or in batch/asynchronous modes.
-- **Custom Translator:** Tailor models using your translation memory and domain-specific data for optimal results.
-- **Automated Language Detection & Transliteration:** Detect languages and convert between scripts automatically.
-- **Vocal & Speech Integration:** Combine with Azure Speech Services for end-to-end voice translation pipelines.
-- **Containers Support:** Deploy locally or at the edge for regulatory or latency requirements.
+- Tradução rápida e precisa: utiliza tecnologia avançada de tradução automática neural para proporcionar traduções de alta qualidade.
 
-Explore the official documentation for the full feature set:  
-https://azure.microsoft.com/en-us/products/ai-services/ai-translator
+- Tradução de textos e documentos: permite traduzir dados estruturados e não estruturados, de forma síncrona ou em lotes/assíncrona.
 
----
+- Translator personalizado: permite adaptar os modelos utilizando memória de tradução e dados específicos do domínio para obter melhores resultados.
 
-## 📓 Python Demo Notebooks
+- Detecção automática de idioma e transliteração: identifica automaticamente o idioma e permite converter textos entre diferentes sistemas de escrita.
 
-Learn and prototype using a comprehensive set of Jupyter notebooks:
+- Integração com voz e fala: pode ser combinado com os serviços do Azure Speech para criar soluções completas de tradução por voz.
 
-1. **Service Overview:**  
-   [Azure AI Translator informations.ipynb](1%20Azure%20AI%20Translator%20informations.ipynb)
-2. **Language Detection:**  
-   [Language detection.ipynb](2%20Language%20detection.ipynb)
-3. **Transliteration Examples:**  
-   [Transliterate example.ipynb](3%20Transliterate%20example.ipynb)
-4. **Text Translation:**  
-   [Translation.ipynb](4%20Translation.ipynb)
-5. **Batch Document Translation:**  
-   [Document translation batch.ipynb](5%20Document%20translation%20batch.ipynb)
-6. **Synchronous Document Translation:**  
-   [Synchronous Document Translation.ipynb](6%20Synchronous%20Document%20Translation.ipynb)
-7. **Vocal Translator Using Azure AI:**  
-   [Vocal Translator using Azure AI.ipynb](7%20Vocal%20Translator%20using%20Azure%20AI.ipynb)
-8. **Voice Translation with Azure Speech Services:**  
-   [Vocal Translator using Azure AI STT.ipynb](8%20Vocal%20Translator%20using%20Azure%20AI%20STT.ipynb)
-
-> **Note:**  
-> Please update the `azure.env` file with your Azure AI Services credentials to run the demos.
+- Suporte a contêineres: permite executar o serviço localmente ou na borda (edge), atendendo a requisitos de regulamentação, segurança ou baixa latência.
 
 ---
 
-## 🖥️ Web Application Examples
+📓 Notebooks de demonstração em Python
 
-- **Text Translation Webapp:**  
-  <img src="webapp1.jpg" alt="Text Translation Webapp Screenshot">
+O projeto possui vários notebooks Jupyter para aprendizado e experimentação:
 
-- **Document Translation Webapp:**  
-  <img src="webapp2.jpg" alt="Document Translation Webapp Screenshot">
+1. Visão geral do Azure AI Translator
+2. Detecção de idioma
+3. Exemplos de transliteração
+4. Tradução de textos
+5. Tradução de documentos em lote
+6. Tradução síncrona de documentos
+7. Tradutor de voz utilizando Azure AI
+8. Tradução de voz utilizando Azure Speech Services
 
-- **Vocal Translation Webapp:**  
-  <img src="webapp4.jpg" alt="Vocal Translation Webapp Screenshot">
-
----
-
-## 🔥 Azure AI Translator Highlights
-
-### Text Translation
-Translate text between over 135 languages in real time. Supports custom dictionaries and translation exclusions.
-- Docs: https://learn.microsoft.com/en-us/azure/ai-services/translator/text-translation-overview
-
-### Asynchronous Batch Document Translation
-Automate translations for large-scale and complex documents while preserving original structure and formatting. Glossary support included.
-- Docs: https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/overview
-
-### Synchronous Document Translation
-Quickly translate single documents (no blob storage required). Optional glossary support.
-- Docs: https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/reference/synchronous-rest-api-guide
-
-### Custom Translator
-Train and deploy translation models customized to your domain, terminology, and style.
-- Docs: https://learn.microsoft.com/en-us/azure/ai-services/translator/custom-translator/overview
+«Observação: para executar os exemplos, é necessário atualizar o arquivo "azure.env" com as credenciais dos serviços de IA do Azure.»
 
 ---
 
-## 📚 Additional Documentation & Resources
+🖥️ Exemplos de aplicações Web
 
-- [Azure AI Translator documentation](https://learn.microsoft.com/en-us/azure/ai-services/translator/)
-- [Language Support List](https://learn.microsoft.com/en-us/azure/ai-services/translator/language-support)
-- [Service Pricing](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/translator/)
-- [What’s New](https://learn.microsoft.com/en-us/azure/ai-services/translator/whats-new?tabs=csharp)
-- [Official Windows Application](https://github.com/MicrosoftTranslator/DocumentTranslation/releases)
-- [MicrosoftTranslator Repositories](https://github.com/orgs/MicrosoftTranslator/repositories)
-- [Translator FAQ](https://learn.microsoft.com/en-us/azure/ai-services/translator/translator-faq)
+O projeto também apresenta exemplos de aplicações Web para:
+
+- Tradução de textos;
+- Tradução de documentos;
+- Tradução por voz.
 
 ---
 
-## 📝 Getting Started
+🔥 Destaques do Azure AI Translator
 
-1. Clone this repository.
-2. Update the `azure.env` file with your Azure subscription and Translator credentials.
-3. Open and explore the notebooks in your preferred Python & Jupyter environment.
+Tradução de textos
+
+Permite traduzir textos entre mais de 135 idiomas em tempo real.
+
+Também oferece suporte a:
+
+- Dicionários personalizados;
+- Exclusões de tradução;
+- Tradução personalizada.
 
 ---
 
-## 📅 Project Info
+Tradução assíncrona de documentos em lote
 
-- **Created:** 10-April-2024
-- **Updated:** 20-November-2025
-- **Author:** Serge Retkowsky  
-- [LinkedIn](https://www.linkedin.com/in/serger/) | serge.retkowsky@microsoft.com
+Permite automatizar traduções de documentos grandes e complexos, preservando a estrutura e a formatação original.
+
+Também oferece suporte a glossários.
+
+---
+
+Tradução síncrona de documentos
+
+Permite traduzir rapidamente documentos individuais, sem a necessidade de utilizar o armazenamento de blobs.
+
+O recurso também oferece suporte opcional a glossários.
+
+---
+
+Translator personalizado
+
+Permite treinar e disponibilizar modelos de tradução personalizados de acordo com:
+
+- Domínio;
+- Terminologia;
+- Estilo de escrita.
+
+---
+
+📚 Documentação e recursos adicionais
+
+O projeto disponibiliza recursos relacionados à documentação do Azure AI Translator, lista de idiomas suportados, preços, novidades, aplicativos e repositórios oficiais.
+
+---
+
+📝 Como começar
+
+1. Clonar o repositório
+
+Clone este repositório para o seu computador.
+
+2. Configurar o Azure
+
+Atualize o arquivo:
+
+"azure.env"
+
+com sua assinatura do Azure e as credenciais do Azure AI Translator.
+
+3. Executar os notebooks
+
+Abra e explore os notebooks utilizando seu ambiente Python e Jupyter preferido.
+
+---
+
+📅 Informações do projeto
+
+Criado: 10 de abril de 2024
+Atualizado: 20 de novembro de 2025
+Autor original: Serge Retkowsky
+
+Descrição: Demonstrações do Azure AI Translator.
+
+---
+
+🎯 Objetivo do projeto
+
+Este projeto apresenta exemplos práticos de utilização do Azure AI Translator, permitindo estudar e experimentar recursos de inteligência artificial relacionados à tradução automática, incluindo:
+
+- Tradução de textos;
+- Tradução de documentos;
+- Detecção de idiomas;
+- Transliteração;
+- Tradução em lote;
+- Tradução síncrona;
+- Tradução por voz;
+- Azure Speech Services;
+- Modelos de tradução personalizados.
+
+📅 Informações do projeto
+
+Projeto original: Azure AI Translator
+Autor original: Serge Retkowsky
+Repositório original: "retkowsky/azure-ai-translator"
+
+Fork e adaptação: Sandra de Oliveira Souza
+GitHub: "Sandradiotech"
+
+---
+
+👩‍💻 Contribuição
+
+Este repositório é um fork do projeto original Azure AI Translator, desenvolvido por Serge Retkowsky.
+
+Como parte da minha contribuição para o projeto, realizei adaptações com foco em aprendizado, documentação e acessibilidade para desenvolvedores de língua portuguesa, incluindo:
+
+- 🇧🇷 Tradução da documentação para português;
+- 📓 Adaptação dos notebooks Jupyter para português;
+- 🐍 Tradução e organização dos comentários e explicações dos códigos Python;
+- 🧩 Organização dos exemplos práticos de utilização do Azure AI Translator;
+- 📚 Inclusão de explicações para facilitar o aprendizado das tecnologias utilizadas;
+- ☁️ Estudos práticos dos serviços de Azure AI;
+- 🤖 Exploração de recursos de Inteligência Artificial e tradução automática;
+- 🔗 Estudo da integração entre aplicações Python e APIs do Azure AI Translator;
+- 💼 Organização do projeto para utilização como material de estudo e portfólio profissional.
+
+🎯 Objetivo da adaptação
+
+O objetivo desta adaptação é tornar os exemplos do Azure AI Translator mais acessíveis para estudantes e desenvolvedores brasileiros, facilitando a compreensão dos conceitos de Inteligência Artificial, APIs, tradução automática e serviços cognitivos do Microsoft Azure.
+
+Esta versão mantém os créditos e a referência ao trabalho original de Serge Retkowsky, acrescentando minha contribuição na tradução, documentação, organização e adaptação do conteúdo para português.
+
+---
+
+👩‍💻 Sobre a contribuição de Sandra de Oliveira Souza
+
+Sandra de Oliveira Souza é estudante de Análise e Desenvolvimento de Sistemas (ADS), com formação técnica em Informática e interesse em desenvolvimento de software, Python, Inteligência Artificial, Cloud Computing, Azure, automação e tecnologias relacionadas.
+
+Este projeto faz parte do seu processo de aprendizado prático e construção de portfólio na área de tecnologia, demonstrando a aplicação de conhecimentos de programação e serviços de Inteligência Artificial em um projeto baseado em APIs.
+
+🛠️ Tecnologias estudadas
+
+- Python
+- Jupyter Notebook
+- Microsoft Azure
+- Azure AI Translator
+- Azure AI Speech
+- APIs REST
+- JSON
+- Inteligência Artificial
+- Tradução automática
+- Git e GitHub
+
+---
+
+📌 Créditos
+
+«Projeto original: Serge Retkowsky
+Fork, tradução e adaptação: Sandra de Oliveira Souza
+GitHub: Sandradiotech»
+
+Todo o crédito pelo desenvolvimento original permanece atribuído ao autor original. Esta versão representa uma contribuição de tradução, documentação, estudo e adaptação do projeto para o público de língua portuguesa.
