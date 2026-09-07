@@ -125,6 +125,9 @@ Criado: 10 de abril de 2024
 Atualizado: 20 de novembro de 2025
 Autor original: Serge Retkowsky
 
+Fork e adaptação: Sandra de Oliveira Souza
+GitHub: "Sandradiotech"
+
 Descrição: Demonstrações do Azure AI Translator.
 
 ---
