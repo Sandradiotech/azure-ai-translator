@@ -1,8 +1,8 @@
-# Azure AI Translator: Demos & Professional Notebooks
+# Azure AI Translator: Demonstrações e Notebooks Profissionais
+
 
 <img src="Translation.png" width="200" alt="Azure AI Translator Logo">
 
-Azure AI Translator: Demonstrações e Notebooks Profissionais
 
 O Azure AI Translator é um serviço robusto de tradução automática neural baseado em nuvem, que oferece traduções rápidas e precisas de textos e documentos em mais de 135 idiomas.
 
